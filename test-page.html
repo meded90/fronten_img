@@ -6,65 +6,16 @@
 </head>
 <body>
 <div class="content">
-    <img alt="" onload="
 
-    var newScript = document.createElement('script');
-    newScript.type = 'text/javascript';
-    newScript.src = 'fronendImg.js';
-    newScript.onload = function(){
-        gineretTestImg(this);
-
-    };
-    document.getElementsByTagName('head')[0].appendChild(newScript);
-console.log(gineretTestImg);
-
-
-    " width="600" height="400" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wJEwsHJwCKILkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAADUlEQVQI12P4////fwAJ+wP90YOM8AAAAABJRU5ErkJggg==" >
-
-    <img alt="" onload="
-
-    var newScript = document.createElement('script');
-    newScript.type = 'text/javascript';
-    newScript.src = 'fronendImg.js';
-    newScript.onload = function(){
-        gineretTestImg(this);
-
-    };
-    document.getElementsByTagName('head')[0].appendChild(newScript);
-console.log(gineretTestImg);
-
-
-    " width="600" height="400" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wJEwsHJwCKILkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAADUlEQVQI12P4////fwAJ+wP90YOM8AAAAABJRU5ErkJggg==" >
-
-    <img alt="" onload="
-
-    var newScript = document.createElement('script');
-    newScript.type = 'text/javascript';
-    newScript.src = 'fronendImg.js';
-    newScript.onload = function(){
-        gineretTestImg(this);
-
-    };
-    document.getElementsByTagName('head')[0].appendChild(newScript);
-console.log(gineretTestImg);
-
-
-    " width="600" height="400" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wJEwsHJwCKILkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAADUlEQVQI12P4////fwAJ+wP90YOM8AAAAABJRU5ErkJggg==" >
-
-    <img alt="" onload="
-
-    var newScript = document.createElement('script');
-    newScript.type = 'text/javascript';
-    newScript.src = 'fronendImg.js';
-    newScript.onload = function(){
-        gineretTestImg(this);
-
-    };
-    document.getElementsByTagName('head')[0].appendChild(newScript);
-console.log(gineretTestImg);
-
-
-    " width="600" height="400" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wJEwsHJwCKILkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAADUlEQVQI12P4////fwAJ+wP90YOM8AAAAABJRU5ErkJggg==" >
+    <img width="600" height="400"  alt="" class="imgGeneretFronend" onload="
+    fi(!document.getElementById('fronendImg')){
+        var newScript = document.createElement('script');
+        newScript.type = 'text/javascript';
+        newScript.src = 'fronendImg.js';
+        newScript.id = 'fronendImg';
+        document.getElementsByTagName('head')[0].appendChild(newScript);
+    }
+    "  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wJEwsHJwCKILkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAADUlEQVQI12P4////fwAJ+wP90YOM8AAAAABJRU5ErkJggg==" >
 
 </div>
 <style>
